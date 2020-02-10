@@ -1,0 +1,12 @@
+.container{
+    box-shadow: 10px 10px 5px grey;
+}
+.text-center{
+    padding: 10px;
+}
+.card-body{
+    box-shadow: 10px 10px 5px grey;
+}
+.justify-content-between{
+    box-shadow: 10px 10px 5px grey;
+}

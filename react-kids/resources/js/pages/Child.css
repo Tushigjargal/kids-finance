@@ -1,0 +1,148 @@
+.switch {
+    position: absolute;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    top: 250px;
+    left: 80%;
+    margin-top: 50px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: grey;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+.child{
+    position: fixed;
+    top :20px;
+    width: 400px;
+    height: 850px;
+    left: 20px;
+    background-color: lightgrey;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgba(105, 105, 105, 0.55);
+}
+.child1{
+    position: fixed;
+    top :100px;
+    left: 410px;
+    width: 70%;
+    height: 700px;
+    background-color: white;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgba(105, 105, 105, 0.55);
+}
+h2{
+  color: black;
+    margin: 0;
+    font-size: 20px;
+    position: relative;
+    left: 50px;
+    margin : 10px;
+}
+.input1{
+    position: relative;
+    left: 100px;
+    width: 70%;
+
+}
+.button1{
+    position: absolute;
+    margin-top: 150px;
+}
+.para{
+    position: absolute;
+    top: 310px;
+    left: 50px;
+
+    margin: 0;
+}
+.btn1{position: absolute;
+top: 400px;
+    left: 15%;
+
+}
+.container1{
+    width: 62%;
+    float: left;
+    margin-left: 25px;
+}
+.container2{
+    height: 100%;
+
+    background-image: linear-gradient( #ffffff, #c1c1c1);
+}
+.container3{
+    float: right;
+    height: 100%;
+    background-image: linear-gradient( #ffffff, #c1c1c1);
+}
+.btn2{
+    position: absolute;
+    top: 400px;
+    left: 50%;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    size: landscape;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 0px solid transparent;
+    border-radius: 5px;
+}
+.btn-secondary{
+
+    box-shadow: 10px 10px 5px grey;
+}
